@@ -12,7 +12,7 @@ public class Demo {
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\C5303772\\OneDrive - SAP SE\\Katalon_Studio_Windows_64-7.6.2\\configuration\\resources\\drivers\\chromedriver_win32\\chromedriver.exe");
+				"E:\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
